@@ -1,0 +1,30 @@
+body{
+    background-color: bisque;
+
+}
+.box{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top:250px;
+    left: 600px;
+    background-color: azure;
+    border-radius: 10px;
+}
+#temp{
+    height: 20px;
+}
+#temp_diff{
+    padding-left: 20px;
+}
+#done{
+    margin-top: 60px;
+    margin-left: 120px;
+}
+#resultContainer{
+    font-size: 0.5cm;
+}
+#result{
+    margin-left: 2.5cm;
+    margin-top: 1cm;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <marquee behavior="alternate" scrollamount="10" align="right" bgcolor="orange" direction="right" loop="100" ><h1>Temperature</h1></marquee>
+    <div class="box">
+        <form id="tempCalc" onsubmit="calculateTemp(); return false">
+            <label for="temp" id="statement"><h3>please enter the temperature you' like to convert.</h3></label>
+            <br>
+            <input type="number" name="temp" id="temp">
+        
+            <select name="temp_diff" id="temp_diff">
+                <!-- here option act as an array ,that is option frist has index 0 and option second has 1 -->
+                <option value="cel">Celcius</option>
+                <option value="fah">Fahrenheit</option>
+            </select>
+            <input type="submit" name="temp" id="done"> 
+            <br>
+            <div id="result"><span id="resultContainer"></span></div>
+            </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
